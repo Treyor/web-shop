@@ -1,3 +1,13 @@
+# Project Goals
+
+1) The main goal was to got skills with Redux and async actions with Redux-Thunk.
+
+2) Improve skills with modern React features, like lazy/suspense and understand principles of react-hooks.
+
+3) To get some expirience with REST-API.
+
+4) Refresh Bootstrap knowledge 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
