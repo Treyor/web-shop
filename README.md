@@ -29,6 +29,16 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run server`
+
+Runs json-server to imitate backend.
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
+It has 3 endpoints:
+1) Users, where you can see list of registered users
+2) Products, which contains all information about products in shop (copied from fakestoreAPI)
+3) Categories
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
