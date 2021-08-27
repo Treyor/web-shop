@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "./components/AppRouter";
+import {NavBar} from "./components/NavBar";
+import { Row, Col } from "react-bootstrap";
 
-function App() {
+import Loader from "./components/Preloader";
+
+const App = () => {
+  const [loading, setLoading] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <NavBar/>
+    {loading ? (
+      <Row>
+          <Col
+            className="d-flex align-items-center justify-content-around"
+            style={{ height: "50vh" }}
+          >
+            <Loader />
+          </Col>
+        </Row>
+    ) : (<AppRouter />)}
+      
+      
+      {/* <div className="App">
+        <Navigation />
+      </div> */}
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
