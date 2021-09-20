@@ -8,9 +8,9 @@
 
 4) Refresh Bootstrap knowledge 
 
-# In plans
+# Little mention
 
-Rewrite styles with styled-components approach
+I understand that inline styles are bad practice, but as it's training project, i was concentrated on main goals. But in near future inline styles will be replaced with styled-components approach
 
 # Getting Started with Create React App
 
