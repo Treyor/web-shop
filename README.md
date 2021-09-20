@@ -8,6 +8,10 @@
 
 4) Refresh Bootstrap knowledge 
 
+# In plans
+
+Rewrite styles with styled-components approach
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
